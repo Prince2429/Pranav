@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.top{
+border:0px solid black;
+background-color:white;
+display:flex;
+justify-content: space-around;
+align-items:center;
+}
+.top_pro{
+border:0px solid gold;
+width:350px;
+height:250px;
+float: left;
+margin:20px;
+margin-bottom:20px;
+box-shadow: 5px 5px 5px 3px #eaeaea;
+transition: transform 1s;
+}
+.top_pro:hover{
+    transform: scale(1.05);
+}
+.bar{
+    background-color:white;
+}
+.bar h2{
+    color:black;
+    padding:10px;
+}
+.top_pro img{
+    width:100%;
+}
+.checked{
+    color:orange;
+}
+.star{
+    border:2px;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+.button input{
+
+    height: 20px;
+    width: 150px;
+    border-radius: 6px;
+    background-color: orange;
+    color:black;
+}
+.button input:hover{
+    background-color: white;
+}

@@ -1,0 +1,25 @@
+.about{
+    background-color:white;
+    color: black;
+    margin-top: 10px;
+}
+.paragraph{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.paragraph ol li{
+    list-style-type: circle;
+}
+.team{
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+}
+.rated{
+    color: black;
+    background-color: white;
+}
+.margin{
+    margin-top: 10px;;
+}

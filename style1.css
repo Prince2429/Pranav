@@ -1,0 +1,102 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+font-family:Verdana;
+color:white;
+background:url(restaurant1.jpeg)no-repeat;
+background-size:cover; 
+}
+nav{
+width:100%;
+background-color:black;
+height:80px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+}
+.logo a{
+font-size:40px;
+color:orange;
+font-weight:bold;
+line-height:80px;
+background-color: lightgray;
+box-shadow: 5px 5px 5px 3px goldenrod;
+transition: transform 1s;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 5px;
+}
+@-webkit-keyframes logo{from{
+    text-shadow: 0 0 10px #FF8C00;
+}
+ 
+}
+a{
+text-decoration:none;
+}
+
+.list{
+width: 1000px;
+float:right;
+border:solid 1px none;
+background-color:black;
+opacity:0.8;
+padding-top: 5px;
+}
+.list ul li{
+width:120px;
+float:left;
+margin:10px auto;
+text-align:center;
+list-style:none;
+font-size:25px;
+position:relative;
+}
+
+ul li{
+padding:20px;
+padding-right: 10px;
+height: 10px;
+position:absolute;
+}
+.list ul li a{
+text-decoration:none;
+color:#D3D3D3;
+} 
+.list ul ul{
+    position:absolute;
+    display:none;
+}
+.list ul ul li{
+    display:flex;
+
+}
+.list ul li:hover > ul{
+    display:block;
+    background-color: black;
+    opacity: 0.8;
+}
+.list ul li:hover{background-color:#FDF5E6;}
+.list ul li a:hover{color:orange;}
+.good{
+width:300px;
+height:500px;
+background-color:#F5FFFA;
+opacity:0.8;
+margin:30px;
+padding:30px;
+color:#FF8C00;
+float:bottom;}
+.good h1{
+text-align:center;
+text-transform:uppercase;
+font-weight:100px;
+} 
+.good h4{
+padding:50px;
+font-family:Arial;
+text-align:justify;
+color:dark-gray;
+font-weight:bold;
+}
